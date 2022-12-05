@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vigenère cipher </title>
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link href="stylev.css" rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container-fluid">
+    <div class="nav"><h1>VIGENERE CIPHER</h1></div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-sm-offset-3 wrapper">
+				<h3 class="sub-heading">Vigenere Cipher Algorithm</h3>
+				<div class="input-areas">
+         <div class="encryption"> <h4 class="sub-heading">Plain Text</h4>
+          <textarea class="input" id="userText" placeholder="What is your message?" value=""></textarea></div>
+          <div class="decryption"><h4 class="sub-heading">Cipher Text</h4>
+        <textarea class="output" id="output" placeholder="Output"></textarea></div>
+        </div>
+			<div class="key">	<input class="keyword-input" id="keyword" type="text" placeholder="keyword" value="" size="60"></input></div>
+				<div class="buttons">
+          <button id="encrypt" class="encrypt-btn btn btn-default" type="submit" onclick="vigenereCipherEncryption()">Encrypt</button>
+        <button id="decrypt" class="decrypt-btn btn btn-default" type="submit" onclick="vigenereCipherDecryption()">Decrypt</button>
+        
+        </div>
+			</div>
+		</div>
+	</div>
+  <script src="vigenere-cipher.js"></script>
+  </body>
+</html>
