@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Dancing+Script:wght@500&family=Montserrat:wght@400;500;600&family=Oswald:wght@200;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  font-family: Montserrat;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.nav {
+  background-color: black;
+  color: azure;
+  font-family: Bellefair;
+  text-align: center;
+  padding-block: 10px;
+}
+
+.sub-heading {
+  text-align: center;
+  padding-block: 10px;
+}
+
+.wrapper {
+  /* display: flex; */
+  padding-block: 5px;
+  padding-inline: 10px;
+}
+
+.input-areas {
+  display: flex;
+  justify-content: center;
+}
+
+.encryption {
+  margin-block: 10px;
+  margin-inline: 15px;
+}
+
+.decryption {
+  margin-block: 10px;
+  margin-inline: 15px;
+}
+
+.input {
+  font-size: 25px;
+  padding-inline: 150px;
+}
+
+.output {
+  font-size: 25px;
+  padding-inline: 150px;
+}
+
+.key {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-inline: 150px;
+
+  font-size: 25px;
+}
+
+.keyword-input {
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  display: flex;
+  justify-content: flex-start;
+
+  padding-inline: 100px;
+
+  margin-left: 50px;
+}
+
+.encrypt-btn {
+  padding-inline: 20px;
+  padding-block: 10px;
+
+  margin-right: 20px;
+
+  font-size: 15px;
+}
+
+.decrypt-btn {
+  padding-inline: 20px;
+  padding-block: 10px;
+
+  /* margin-left: 20px; */
+
+  font-size: 15px;
+}

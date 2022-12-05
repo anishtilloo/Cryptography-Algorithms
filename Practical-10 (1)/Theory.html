@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VIGNERE CIPHER</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+  <div class="subbannerbg">
+    <div class="subbannerbgleft"></div>
+    <div class="subbannerbgmiddle">
+      <h1>VIGENERE CIPHER</h1>
+    </div>
+    <div class="subbannerbgright"></div>
+    <div class="content">
+      <div class="leftcolumn">
+        <h2></h2>
+        <div class="underh2">
+          <div id="navvy">
+            <ul id="navvylist">
+              <li><a href="index.html">Aim</a></li>
+              <li><a href="Theory.html">Theory</a></li>
+              <li><a href="Objective.html">Objective</a></li>
+              <li><a href="simulation.html">Simulation</a></li>
+              <li><a href="Conclusion.html">Conclusion</a></li>
+            </ul>
+          </div>
+        </div>
+        <h2></h2>
+        <div class="underh2"></div>
+      </div>
+      <div class="rightcolumn">
+        <div class="mainheadingbg">
+         
+          <h3> Theory</h3>
+        </div>
+        <div class="writtencontent">
+         
+         <p> Cryptography is a way of conducting a protected communication between two parties using mathematical concepts and various rule-based calculations which in computer science terms are called algorithms. These algorithms transform ordinary plain text, information, messages in a series of text that is hard to decipher using a sequence of code so that it can only be accessed by those for whom it is intended to read and process. Let us understand how Vigenère cipher is used in cryptography. </p>
+         <p> Each plaintext symbol is encrypted using a cipher obtained from a polyalphabetic substitution.  The Vigenère table is made of alphabets written 26 different times in various rows and columns and with each revision, an alphabet is moved to its left compared to the previous alphabet.  The alphabet that is picked at each point depends on the keyword being repeated. Vigenère cipher algorithm was considered extremely difficult to break or let’s say unbreakable until many years.</p>
+         <p><p>Encryption :</p>
+          <p>The first letter of the plaintext, G is paired with A, the first letter of the key. So use row G and column A of the Vigenère square, namely G. Similarly, for the second letter of the plaintext, the second letter of the key is used, the letter at row E, and column Y is C. The rest of the plaintext is enciphered in a similar fashion. 
+
+            The plaintext(P) and key(K) are added modulo 26.
+            
+            </p>
+            <p>Ei = (Pi + Ki) mod 26</p>
+        </p>
+        <p><p>Decryption :</p>
+          <p> Decryption is performed by going to the row in the table corresponding to the key, finding the position of the ciphertext letter in this row, and then using the column’s label as the plaintext. </p>
+          <p>  For example, in row A (from AYUSH), the ciphertext G appears in column G, which is the first plaintext letter. Next, we go to row Y (from AYUSH), locate the ciphertext C which is found in column E, thus E is the second plaintext letter.
+          </p>
+          <p>Di = (Ei - Ki + 26) mod 26</p>
+        </p>
+        </div> 
+      <div class="clear"></div>
+    </div>
+    <div class="footer">
+    </div>
+  </div>
+</div>
+
+</html>
